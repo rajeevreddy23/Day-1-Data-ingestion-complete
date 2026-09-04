@@ -1,0 +1,25 @@
+# Bluestock MF Capstone - Gitignore
+# Database and large files
+bluestock_mf.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyw
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# Output files (generated during project)
+ outputs/
+
+# Report files
+*.pdf
+*.pptx
+
+# Temporary files
+temp/
