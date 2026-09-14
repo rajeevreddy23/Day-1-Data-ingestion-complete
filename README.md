@@ -1,5 +1,10 @@
 # Bluestock Fintech - Mutual Fund Analytics Capstone Project
 
+> **Student Name:** Rajeev Reddy | **Group Code:** 62FMBF  
+> **GitHub Repository:** [https://github.com/rajeevreddy23/Day-1-Data-ingestion-complete](https://github.com/rajeevreddy23/Day-1-Data-ingestion-complete)  
+> **Google Drive Submission:** [Google Drive Master Archive Link](https://drive.google.com/) *(All Zips, Datasets & PPTX)*  
+
+
 ## Project Overview
 A comprehensive end-to-end Mutual Fund Analytics Platform built as a 7-week capstone project by Bluestock Fintech Pvt. Ltd. The platform ingests publicly available AMFI India data, transforms it through a robust ETL pipeline, stores it in a relational database, and presents insights via an interactive dashboard.
 
