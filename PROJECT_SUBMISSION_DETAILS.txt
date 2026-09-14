@@ -1,0 +1,92 @@
+================================================================================
+BLUESTOCK FINTECH - CAPSTONE PROJECT MASTER SUBMISSION
+Project: Capstone Project I - Mutual Fund Analytics Platform
+Student Name: Rajeev Reddy
+Group Code: 62FMBF
+Status: Completed
+Repository: https://github.com/rajeevreddy23/Day-1-Data-ingestion-complete
+================================================================================
+
+1. PROJECT SUMMARY & EXECUTIVE OVERVIEW
+--------------------------------------------------------------------------------
+A full-stack, end-to-end Mutual Fund Analytics Platform analyzing 40 mutual fund
+schemes across India's top 10 Asset Management Companies (AMCs) spanning 4.5 years
+(Jan 2022 to May 2026). The project encompasses an automated ETL data pipeline,
+REST API integration (mfapi.in), an 8-table relational SQLite star-schema database,
+quantitative risk modeling, an interactive Streamlit web dashboard, and an executive
+presentation deck.
+
+2. SUBMISSION LINKS & DELIVERABLES
+--------------------------------------------------------------------------------
+- GitHub Repository (Code, Notebooks & ETL):
+  https://github.com/rajeevreddy23/Day-1-Data-ingestion-complete
+
+- Google Drive Master Submission Folder / Zip:
+  [PASTE YOUR GOOGLE DRIVE SHARE LINK HERE]
+  (Uploaded file: Bluestock_Master_Google_Drive_Upload.zip)
+
+3. TECH STACK & TOOLS
+--------------------------------------------------------------------------------
+- Programming Language: Python 3.10+
+- Core Data Science: Pandas, NumPy, SciPy
+- Visualizations: Matplotlib, Seaborn, Plotly
+- Database & Modeling: SQLite3, SQLAlchemy (8-table Star Schema)
+- API Integration: REST API (https://api.mfapi.in)
+- Web App Dashboard: Streamlit (Interactive Multi-tab Interface)
+- Environment & Tools: Jupyter Notebook, Git, GitHub, openpyxl, python-pptx
+
+4. DAY-BY-DAY MILESTONE COMPLETION DETAILS
+--------------------------------------------------------------------------------
+* Day 1 - Data Ingestion & Live API Extraction:
+  - Ingested and profiled all 10 AMFI datasets (46,000+ rows).
+  - Built live NAV API fetcher for anchor scheme HDFC Top 100 (125497) and 5 peer
+    bluechip funds (SBI, ICICI, Nippon, Axis, Kotak).
+  - Validated 100% AMFI scheme code referential integrity (zero mismatches).
+
+* Day 2 - Data Cleaning & Relational SQL Database Design:
+  - Cleaned nulls, normalized dates (ISO-8601), standardized currency denominations.
+  - Architected 8-table star-schema SQLite database (bluestock_mf.db).
+  - Implemented schema.sql and verified 10 core analytical queries (queries.sql).
+
+* Day 3 - Exploratory Data Analysis (EDA):
+  - Conducted extensive trend analysis across AUM, monthly SIP inflows, and folio counts.
+  - Generated 15+ publication-quality visualization charts in Jupyter Notebook.
+  - Identified 10 key market trends (AUM +84%, SIP inflows +169% to Rs 31,002 Cr).
+
+* Day 4 - Fund Performance Analytics:
+  - Calculated quantitative metrics across 40 schemes: 1Y/3Y/5Y CAGR, Annualized
+    Volatility, Sharpe Ratio, Sortino Ratio, Alpha, Beta vs NIFTY 50, and Max Drawdown.
+  - Identified top risk-adjusted performers across Large Cap, Mid Cap, and Small Cap.
+
+* Day 5 - Interactive Web Dashboard:
+  - Developed full-featured Streamlit application (capstone_dashboard.py).
+  - 4 interactive views: Industry Macro Trends, Scheme Screener, Portfolio
+    Holdings & Concentration, and Risk Analytics.
+
+* Day 6 - Advanced Analytics & Risk Modeling:
+  - Computed 95% & 99% Value at Risk (Parametric and Historical VaR) and CVaR.
+  - Analyzed portfolio concentration risk via Herfindahl-Hirschman Index (HHI).
+  - Implemented rolling 1-year Sharpe ratios and investor transaction cohort analysis.
+  - Built algorithmic recommendation engine tailored to conservative, moderate,
+    and aggressive investor risk profiles.
+
+* Day 7 - Final Report, Slides & Documentation:
+  - Authored comprehensive 220+ line technical report (FINAL_REPORT.md).
+  - Compiled detailed executive summary metrics (PROJECT_RESULTS_SUMMARY.md).
+  - Produced professional 12-slide presentation deck
+    (Bluestock_MF_Analytics_Capstone_Presentation.pptx).
+
+5. KEY ANALYTICAL FINDINGS & METRICS
+--------------------------------------------------------------------------------
+- Industry AUM Growth: Surged 84% from Rs 6.05 Lakh Cr to Rs 11.14 Lakh Cr.
+- Retail SIP Phenomenon: Monthly inflows grew 169% to Rs 31,002 Cr; active accounts
+  doubled from 4.91 Cr to 9.35 Cr.
+- Retail Folio Base: Expanded 97% from 13.26 Cr to 26.12 Cr folios.
+- Top AMC Market Leaders: SBI MF (Rs 11.14L Cr), ICICI Prudential (Rs 8.74L Cr),
+  and HDFC MF (Rs 7.87L Cr).
+- Outperforming Alpha: Quant Mid Cap and Nippon Large Cap generated the highest
+  risk-adjusted alpha above their respective category benchmark indices.
+
+================================================================================
+ALL WORK VERIFIED, TESTED & READY FOR FORMAL EVALUATION
+================================================================================
