@@ -14,14 +14,11 @@ __pycache__/
 # Streamlit
 .streamlit/
 
-# Output files (generated during project)
- outputs/
-
-# Report files
-*.pdf
-*.pptx
-
-# Temporary files
+# Temporary and submission archives
 temp/
 Rajeev_Reddy_Submission/
+Bluestock_Day_by_Day_Submission/
+Google_Drive_Submission_Files/
+Nifty100_Google_Drive_Submission/
+nifty100/
 *.zip
