@@ -1,6 +1,4 @@
 # Bluestock MF Capstone - Gitignore
-# Database and large files
-bluestock_mf.db
 
 # Python cache
 __pycache__/
@@ -21,4 +19,5 @@ Bluestock_Day_by_Day_Submission/
 Google_Drive_Submission_Files/
 Nifty100_Google_Drive_Submission/
 nifty100/
+nifty100_data/
 *.zip
